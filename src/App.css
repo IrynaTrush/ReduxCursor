@@ -1,0 +1,76 @@
+.main {
+background: rgba(235,188,219,1);
+background: -moz-linear-gradient(left, rgba(235,188,219,1) 0%, rgba(245,240,243,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(235,188,219,1)), color-stop(100%, rgba(245,240,243,1)));
+background: -webkit-linear-gradient(left, rgba(235,188,219,1) 0%, rgba(245,240,243,1) 100%);
+background: -o-linear-gradient(left, rgba(235,188,219,1) 0%, rgba(245,240,243,1) 100%);
+background: -ms-linear-gradient(left, rgba(235,188,219,1) 0%, rgba(245,240,243,1) 100%);
+background: linear-gradient(to right, rgba(235,188,219,1) 0%, rgba(245,240,243,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebbcdb', endColorstr='#f5f0f3', GradientType=1 );
+}
+
+.postsWrapper {
+  max-width: 60%;
+  margin: 0 auto;
+  background-color: #e6f0ff;
+  -webkit-box-shadow: -1px 3px 31px -9px rgba(72,116,145,1);
+  -moz-box-shadow: -1px 3px 31px -9px rgba(72,116,145,1);
+  box-shadow: -1px 3px 31px -9px rgba(72,116,145,1);
+}
+
+.post {
+  margin-top: 35px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.input {
+  width: 60%;
+  margin: 0 auto 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.select {
+  width: 35%;
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+  color: grey;
+  border-radius: 5px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.select {
+  cursor: pointer;
+}
+
+.btn {
+  width: 40%;
+  margin: 15px auto 0;
+  padding: 10px;
+  color: grey;
+  border-radius: 5px;
+  font-family: 'Noto Sans JP', sans-serif;
+  box-shadow: 2px 2px 5px ;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: all 0.3s;
+}

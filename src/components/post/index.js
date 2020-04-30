@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 
 const Post = (props) => {
- return(
+return(
     <div className="postWrapper">
     <div className="user">
         <img src={props.photo} className="userImage" alt="easter"/>

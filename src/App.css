@@ -74,3 +74,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebbcdb', end
   transform: scale(1.02);
   transition: all 0.3s;
 }
+
+.btn:disabled {
+  transform: scale(1);
+  background-color: #bfbfbf;
+  cursor: not-allowed;
+}

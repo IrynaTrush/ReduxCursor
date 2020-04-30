@@ -1,5 +1,6 @@
 export const ADD_POST = "ADD_POST";
 
+
 const initialState = {
   post: [
       {
@@ -63,7 +64,7 @@ export const homeReducer = (state = initialState, action) => {
                 post: [...state.post, action.value]
             };
         }
-        default:
+       default:
             return state
     }
 }
